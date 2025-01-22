@@ -121,12 +121,4 @@ describe('Login Tests', () => {
         loginPage.clickCreateAccount();
     });
 
-    // it('allows user to log in with valid credentials', () => {
-    //     loginPage.fillEmail(Cypress.env('ACTIVE_USER'));
-    //     loginPage.fillPassword(Cypress.env('ACTIVE_PWD'));
-    //     loginPage.clickLogin();
-    //   cy.url().should('contain.value', 'https://www.hudl.com/home')
-    // });
-
-
 });
